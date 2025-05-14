@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-    <Provider store={Store}>
+    <Provider store={Store} basename={import.meta.env.BASE_URL}>
       <div>
         <h1>Welcome</h1>
         {/* <input type="text" />
